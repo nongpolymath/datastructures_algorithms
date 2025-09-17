@@ -1,0 +1,52 @@
+pyproject.toml
+src/DataStructuresAlgorithms.egg-info/PKG-INFO
+src/DataStructuresAlgorithms.egg-info/SOURCES.txt
+src/DataStructuresAlgorithms.egg-info/dependency_links.txt
+src/DataStructuresAlgorithms.egg-info/top_level.txt
+src/arrays/arrayPractice.py
+src/arrays/twoDimArray.py
+src/arrays/twoDimensionalArrays1.py
+src/dictionaries/dictionary1.py
+src/dictionaries/dictionaryQuiz.py
+src/graph/breadth_first_search.py
+src/linked_lists/LinkedList-Elshad.py
+src/linked_lists/LinkedListNew.py
+src/linked_lists/circular_doubly_linked_list.py
+src/linked_lists/circular_link_list_prac.py
+src/linked_lists/doubly_linked_list.py
+src/linked_lists/singly_linked_list_practice.py
+src/linked_lists/singly_linkedlist_updated.py
+src/linked_lists/reference_code/CircularDoublyLinkedList.py
+src/linked_lists/reference_code/CircularSinglyLinkedListNew.py
+src/linked_lists/reference_code/CircurlarSinglyLinkedList.py
+src/linked_lists/reference_code/DoublyLinkedList.py
+src/linked_lists/reference_code/DoublyLinkedListNew.py
+src/queues_lib/Q5_AnimalShelter.py
+src/queues_lib/__init__.py
+src/queues_lib/queue_circular_list.py
+src/queues_lib/queue_circular_list_practice.py
+src/queues_lib/queue_linked_list.py
+src/queues_lib/queue_linked_list_practice.py
+src/queues_lib/queue_list.py
+src/queues_lib/queue_list_limited_size.py
+src/queues_lib/queue_list_practice.py
+src/recursion/recursion.py
+src/recursion/recursion_practice_set1.py
+src/recursion/recursion_practice_set2.py
+src/sorting/quicksort.py
+src/stacks/stack_linked_list_practice.py
+src/stacks/stack_list_limited.py
+src/stacks/stack_list_limited_size.py
+src/stacks/stack_list_practice.py
+src/stacks/stack interview questions/multistack_single_list.py
+src/stacks/stack interview questions/queue_stacks.py
+src/stacks/stack interview questions/stack_minimum.py
+src/stacks/stack interview questions/stack_of_plates.py
+src/stacks/stacks _secondary/StackLinkedList_Elshad.py
+src/stacks/stacks _secondary/StackList_Elshad.py
+src/stacks/stacks _secondary/stack_multi_stack.py
+src/stacks/stacks _secondary/stack_using_linkedlist.py
+src/trees/binary_search_tree_bst.py
+src/trees/binary_tree_linked_list.py
+src/trees/binary_tree_list.py
+src/trees/referenceCode/CreateTree.py
