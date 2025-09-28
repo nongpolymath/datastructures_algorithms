@@ -29,11 +29,11 @@ class LinkedListQueue:
         if self.front is None:
             print("Queue is empty. Cannot dequeue.")
             return None
-        removed_value = self.front.value
+        removed_node = self.front
         self.front = self.front.next
         if self.front is None:
             self.rear = None  # Queue became empty
-        return removed_value
+        return removed_node
 
     def is_empty(self):
         return self.front is None

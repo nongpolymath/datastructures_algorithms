@@ -3,3 +3,4 @@
 .vscode/settings.json
 src/.idea
 pdfs/*
+__pycache__/

@@ -15,3 +15,10 @@ dependencies = []
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.poetry]
+name = "data-structures-algorithms"
+version = "0.1.0"
+description = "collection of practice code foor DS and Algos"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
