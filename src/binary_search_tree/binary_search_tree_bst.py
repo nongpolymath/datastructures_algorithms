@@ -8,8 +8,8 @@ class BSTNode:
         
     
 def insert_node(root_node, node_value):
-    if root_node.data is None:
-        root_node.data = node_value
+    if root_node is None:
+        return BSTNode(node_value)
     else:
         if node_value <= root_node.data:
             if root_node.left_child is None:
