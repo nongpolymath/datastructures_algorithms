@@ -1,6 +1,25 @@
-.venv/*
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
 .vscode/launch.json
 .vscode/settings.json
-src/.idea
-pdfs/*
-__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+pdfs/
