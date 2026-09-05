@@ -81,3 +81,24 @@ st.push(1)
 st.push(2)
 st.push(3)
 print(st)
+
+# Leetcode 20. Valid Parentheses
+
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+
+        stack = [] # LIFO stacks all opening parantheses
+        close_to_open = {"(":")", "]": "[", "}":"{"}
+        for char in s:
+            if char in close_to_open:
+                if stack[-1] == close_to_open[char]:
+                    stack.pop()
+                else:
+                    return False # order of the parantheses is broken
+            else:
+                stack.append(char)
+        return len(stack) == 0
