@@ -50,39 +50,3 @@ def can_finish_bfs(num_courses: int, prerequisites: list[list[int]]) -> bool:
                 queue.append(nxt)
     return taken == num_courses
 
-
-
-
-
-
-if __name__ == "__main__":
-    # Example 1: no cycle -> True
-    print(can_finish_bfs(2, [[1, 0]]))          # True
-
- 
-    # Example 2: 2-node cycle -> False
-    print(can_finish_bfs(2, [[1, 0], [0, 1]]))  # False
-
- 
-    # Diamond DAG from the diagram -> True
-    diamond = [[1, 0], [2, 0], [3, 1], [3, 2]]
-    print(can_finish_bfs(4, diamond))           # True
-
- 
-    # Triangle cycle from the diagram -> False
-    triangle = [[1, 0], [2, 1], [0, 2]]
-    print(can_finish_bfs(3, triangle))          # False
-
- 
-    print("--- LeetCode 210: return the order ---")
- 
-    # Example 1: [0, 1]
-    print(find_order_bfs(2, [[1, 0]]))
-
- 
-    # Diamond DAG -> a valid order (0 must be first, 3 must be last)
-    print(find_order_bfs(4, diamond))
-
- 
-    # Triangle cycle -> no valid order
-    print(find_order_bfs(3, triangle))          # []
